@@ -1,0 +1,64 @@
+diff --git a/node_modules/react-native-card-stack-swiper/CardStack.js b/node_modules/react-native-card-stack-swiper/CardStack.js
+index a35b472..0f5ef77 100644
+--- a/node_modules/react-native-card-stack-swiper/CardStack.js
++++ b/node_modules/react-native-card-stack-swiper/CardStack.js
+@@ -188,6 +188,7 @@ class CardStack extends Component {
+       {
+         toValue: 0,
+         duration: this.props.duration,
++        useNativeDriver: false,
+       }
+     ).start();
+     Animated.spring(
+@@ -195,6 +196,7 @@ class CardStack extends Component {
+       {
+         toValue: { x: 0, y: 0 },
+         duration: this.props.duration,
++        useNativeDriver: false,
+       }
+     ).start();
+   }
+@@ -271,6 +273,7 @@ class CardStack extends Component {
+         {
+           toValue: 0,
+           duration: this.props.duration,
++          useNativeDriver: false,
+         }
+       ).start();
+ 
+@@ -279,6 +282,7 @@ class CardStack extends Component {
+         {
+           toValue: { x: 0, y: 0 },
+           duration: this.props.duration,
++          useNativeDriver: false,
+         }
+       ).start();
+     })
+@@ -320,6 +324,7 @@ class CardStack extends Component {
+         {
+           toValue: 220,
+           duration,
++          useNativeDriver: false,
+         }
+       ).start();
+ 
+@@ -328,6 +333,7 @@ class CardStack extends Component {
+         {
+           toValue: { x: (horizontalSwipe) ? x : 0, y: (verticalSwipe) ? y : 0 },
+           duration,
++          useNativeDriver: false,
+         }
+       ).start(() => {
+ 
+diff --git a/node_modules/react-native-card-stack-swiper/index.d.ts b/node_modules/react-native-card-stack-swiper/index.d.ts
+index 112c474..ab9929a 100644
+--- a/node_modules/react-native-card-stack-swiper/index.d.ts
++++ b/node_modules/react-native-card-stack-swiper/index.d.ts
+@@ -22,6 +22,7 @@ export interface CardStackProps {
+   onSwipedRight?: (index: number) => void;
+   onSwipedTop?: (index: number) => void;
+   onSwipedBottom?: (index: number) => void;
++  onSwipedAll?: () => void;
+   onSwipe?: (x: number, y: number) => void;
+ }
+ 

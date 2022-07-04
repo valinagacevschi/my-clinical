@@ -1,0 +1,91 @@
+[{
+    "id": 981,
+    "summary": "Salbutamol",
+    "start": "2020-01-24T08:00:00.000Z",
+    "control": false,
+    "state": null
+},
+{
+    "id": 982,
+    "summary": "Salbutamol",
+    "start": "2020-01-24T20:00:00.000Z",
+    "control": false,
+    "state": null
+},
+{
+    "id": 985,
+    "summary": "Dexpak Taperpak",
+    "start": "2020-01-24T08:00:00.000Z",
+    "control": false,
+    "state": null
+},
+{
+    "id": 983,
+    "summary": "Dexpak Taperpak",
+    "start": "2020-01-22T08:00:00.000Z",
+    "control": false,
+    "state": null
+},
+{
+    "id": 977,
+    "summary": "Salbutamol",
+    "start": "2020-01-22T08:00:00.000Z",
+    "control": false,
+    "state": null
+},
+{
+    "id": 978,
+    "summary": "Salbutamol",
+    "start": "2020-01-22T20:00:00.000Z",
+    "control": false,
+    "state": null
+},
+{
+    "id": 979,
+    "summary": "Salbutamol",
+    "start": "2020-01-23T08:00:00.000Z",
+    "control": false,
+    "state": null
+},
+{
+    "id": 984,
+    "summary": "Dexpak Taperpak",
+    "start": "2020-01-23T08:00:00.000Z",
+    "control": false,
+    "state": null
+},
+{
+    "id": 980,
+    "summary": "Salbutamol",
+    "start": "2020-01-23T20:00:00.000Z",
+    "control": false,
+    "state": null
+},
+{
+    "id": 973,
+    "summary": "Salbutamol",
+    "start": "2020-01-20T08:00:00.000Z",
+    "control": false,
+    "state": null
+},
+{
+    "id": 974,
+    "summary": "Salbutamol",
+    "start": "2020-01-20T20:00:00.000Z",
+    "control": false,
+    "state": null
+},
+{
+    "id": 975,
+    "summary": "Salbutamol",
+    "start": "2020-01-21T08:00:00.000Z",
+    "control": false,
+    "state": null
+},
+{
+    "id": 976,
+    "summary": "Salbutamol",
+    "start": "2020-01-21T20:00:00.000Z",
+    "control": false,
+    "state": null
+}]

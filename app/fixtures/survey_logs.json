@@ -1,0 +1,52 @@
+[
+  {
+      "id": 60,
+      "treatment_id": 43,
+      "survey_id": 2,
+      "score": 25,
+      "taken": "2020-02-06T23:05:08.000Z",
+      "viewed": false,
+      "level": "PERFECT",
+      "info": "Your asthma appears to have been UNDER CONTROL."
+  },
+  {
+      "id": 59,
+      "treatment_id": 43,
+      "survey_id": 2,
+      "score": 25,
+      "taken": "2020-02-05T22:53:28.000Z",
+      "viewed": true,
+      "level": "PERFECT",
+      "info": "Your asthma appears to have been UNDER CONTROL."
+  },
+  {
+      "id": 58,
+      "treatment_id": 43,
+      "survey_id": 2,
+      "score": 25,
+      "taken": "2020-02-05T17:44:54.000Z",
+      "viewed": true,
+      "level": "PERFECT",
+      "info": "Your asthma appears to have been UNDER CONTROL."
+  },
+  {
+      "id": 57,
+      "treatment_id": 43,
+      "survey_id": 2,
+      "score": 15,
+      "taken": "2020-02-05T11:48:39.000Z",
+      "viewed": true,
+      "level": "OFF TARGET",
+      "info": "Your asthma may NOT HAVE BEEN CONTROLLED."
+  },
+  {
+      "id": 56,
+      "treatment_id": 43,
+      "survey_id": 2,
+      "score": 24,
+      "taken": "2020-02-02T12:21:31.000Z",
+      "viewed": true,
+      "level": "ON TARGET",
+      "info": "Your asthma appears to have been REASONABLY WELL CONTROLLED."
+  }
+]

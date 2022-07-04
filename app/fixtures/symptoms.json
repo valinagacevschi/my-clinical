@@ -1,0 +1,77 @@
+[{
+  "id": 142,
+  "name": "Blue Inhaler Use",
+  "summary": "Blue Inhaler Use",
+  "options": [
+      "0-2 times",
+      "3-4 times",
+      "More than 4 times"
+  ],
+  "info": "How often did you use your blu inhaler today ?"
+},
+{
+  "id": 143,
+  "name": "Breathless",
+  "summary": "Breathless",
+  "options": [
+      "No",
+      "Sometimes",
+      "Often"
+  ],
+  "info": "Did you feel a shortness of breath today?"
+},
+{
+  "id": 144,
+  "name": "Chest tightness",
+  "summary": "Tightness in my chest",
+  "options": [
+      "No",
+      "Sometimes",
+      "Often"
+  ],
+  "info": "Do you feel like something is holding you back from breathing ?"
+},
+{
+  "id": 145,
+  "name": "Daytime Cough",
+  "summary": "Daytime Cough",
+  "options": [
+      "No",
+      "Sometimes",
+      "Often"
+  ],
+  "info": "Do you cough during the day time?"
+},
+{
+  "id": 146,
+  "name": "Night Cough",
+  "summary": "Night Cough",
+  "options": [
+      "No",
+      "Sometimes",
+      "Often"
+  ],
+  "info": "Do you cough during the night time?"
+},
+{
+  "id": 147,
+  "name": "Night Time Awakening",
+  "summary": "Night Time Awakening",
+  "options": [
+      "No",
+      "Yes",
+      "Coludn't sleep"
+  ],
+  "info": "Did your asthma symptoms wake you up last night ?"
+},
+{
+  "id": 148,
+  "name": "Wheeze",
+  "summary": "Wheeze",
+  "options": [
+      "No",
+      "Sometimes",
+      "Yes"
+  ],
+  "info": "Do you breathe with a whistling or rattling noise in your chest ?"
+}]

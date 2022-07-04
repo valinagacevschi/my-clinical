@@ -1,0 +1,22 @@
+[
+  {
+      "id": 43,
+      "name": "Asthma",
+      "start": "2020-01-20T08:00:00.000Z",
+      "completed": "2020-03-20T23:59:59.999Z",
+      "updated_at": "2020-02-06T13:11:44.072Z",
+      "level": "G",
+      "score": 0,
+      "medic": {
+          "id": 373,
+          "name": "Dr. Andrei Tirpea"
+      },
+      "patient": {
+          "name": "Theo McClure"
+      },
+      "symptoms": [],
+      "medications": [],
+      "surveys": [],
+      "full": true
+  }
+]

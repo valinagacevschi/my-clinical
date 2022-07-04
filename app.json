@@ -1,0 +1,93 @@
+{
+  "expo": {
+    "name": "MyClinical",
+    "slug": "mymed",
+    "privacy": "unlisted",
+    "scheme": "mymed",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.17",
+    "orientation": "portrait",
+    "icon": "./assets/icon-192.png",
+    "backgroundColor": "#00ACA2",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "notification": {
+      "icon": "./assets/icon-96.png",
+      "color": "#000000",
+      "iosDisplayInForeground": true,
+      "androidMode": "default"
+    },
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 0,
+      "checkAutomatically": "ON_LOAD"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.myhealthmed.mymed",
+      "buildNumber": "1.0.17",
+      "icon": "./assets/icon-1024.png"
+    },
+    "android": {
+      "package": "com.myhealthmed.mymed",
+      "versionCode": 10,
+      "useNextNotificationsApi": false,
+      "permissions": [],
+      "googleServicesFile": "./google-services.json",
+      "config": {
+        "googleSignIn": {
+          "apiKey": "secret"
+        },
+        "googleMaps": {
+          "apiKey": "secret"
+        }  
+      },
+      "intentFilters": [{
+        "action": "VIEW",
+        "data": [{ "scheme": "mymed" }],
+        "category": ["BROWSABLE", "DEFAULT"]
+      }]  
+    },
+    "packagerOpts": {
+      "sourceExts": [
+        "js",
+        "jsx",
+        "ts",
+        "tsx",
+        "svg"
+      ]
+    },
+    "description": ""
+  },
+  "plugins": [
+    [
+      "expo-notifications",
+      {
+        "icon": "./assets/icon-96.png",
+        "color": "#000000",
+        "sounds": []
+      }
+    ]
+  ],  
+  "hooks": {
+    "postPublish": [
+      {
+        "file": "sentry-expo/upload-sourcemaps",
+        "config": {
+          "organization": "experimentro",
+          "project": "my-clinical",
+          "authToken": "8bf8bcf8386843f7b14404d7be55f39b591878e8ad32414090e5da314e4cf325"
+        }
+      }
+    ]
+  }
+}

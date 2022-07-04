@@ -1,0 +1,37 @@
+const colors = {
+  coal: '#222',
+  bar: '#00ACA2',
+  page: '#00ACA2',
+  banner: '#00978E',
+  bannerx: '#00ACA299',
+  content: '#00978E',
+  lateCard: '#ff9900',
+  clear: 'rgba(0,0,0,0)',
+  snow: '#ffffff',
+  steel: '#e9e9e9',
+  translucid: '#55555555',
+  primary: 'rgb(0, 202, 202)',
+  success: 'rgb(0,202,0)',
+  warning: '#ff9900',
+  error: 'rgb(202,0,0)',
+  shadow: 'rgba(30,30,30,0.4)',
+  ricePaper: 'rgba(200,200,200, 1)',
+  scale: [
+    'rgb(202,0,0)',
+    'rgb(202,102,0)',
+    'rgb(222,182,0)',
+    'rgb(0,102,0)',
+    'rgb(40,90,202)',
+  ],
+
+  air_good: '#006600',
+  air_moderate: '#ca6600',
+  air_sensitive: '#deb600',
+  air_unhelathy: '#ca0000',
+  air_very_unhelathy: '#660099',
+  air_hazardous: '#7e0023',
+  debug: { borderColor: 'red', borderWidth: 1 },
+  transparent: '#00000000',
+}
+
+export default colors

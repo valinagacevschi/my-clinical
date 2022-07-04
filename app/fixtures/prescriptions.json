@@ -1,0 +1,29 @@
+[
+  {
+    "summary": "Salbutamol",
+    "description": "DEMO MODE: Do not act on this.",
+    "level": "G",
+    "frequency": 2,
+    "occurence": 15,
+    "delay": 0,
+    "control": false
+  },
+  {
+    "summary": "Singulair",
+    "description": "DEMO MODE: Do not act on this.",
+    "level": "G",
+    "frequency": 2,
+    "occurence": 15,
+    "delay": 0,
+    "control": false
+  },
+  {
+    "summary": "Advair Diskus",
+    "description": "DEMO MODE: Do not act on this.",
+    "level": "G",
+    "frequency": 2,
+    "occurence": 15,
+    "delay": 0,
+    "control": false
+  }
+]

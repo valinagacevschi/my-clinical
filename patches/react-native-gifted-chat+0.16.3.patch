@@ -1,0 +1,48 @@
+diff --git a/node_modules/react-native-gifted-chat/lib/GiftedChat.d.ts b/node_modules/react-native-gifted-chat/lib/GiftedChat.d.ts
+index 5e2f61c..87ee92f 100644
+--- a/node_modules/react-native-gifted-chat/lib/GiftedChat.d.ts
++++ b/node_modules/react-native-gifted-chat/lib/GiftedChat.d.ts
+@@ -8,6 +8,7 @@ import Avatar from './Avatar';
+ import Bubble from './Bubble';
+ import SystemMessage from './SystemMessage';
+ import MessageImage from './MessageImage';
++import MessageVideo from './MessageVideo';
+ import MessageText from './MessageText';
+ import Composer from './Composer';
+ import Day from './Day';
+@@ -101,6 +102,7 @@ export interface GiftedChatProps<TMessage extends IMessage = IMessage> {
+     renderQuickReplySend?(): React.ReactNode;
+     scrollToBottomComponent?(): React.ReactNode;
+     shouldUpdateMessage?(props: Message<TMessage>['props'], nextProps: Message<TMessage>['props']): boolean;
++    renderMessageVideo?(messageVideo: MessageVideo<TMessage>['props']): React.ReactNode;
+ }
+ export interface GiftedChatState<TMessage extends IMessage = IMessage> {
+     isInitialized: boolean;
+@@ -321,4 +323,4 @@ declare class GiftedChat<TMessage extends IMessage = IMessage> extends React.Com
+     render(): JSX.Element;
+ }
+ export * from './Models';
+-export { GiftedChat, Actions, Avatar, Bubble, SystemMessage, MessageImage, MessageText, Composer, Day, InputToolbar, LoadEarlier, Message, MessageContainer, Send, Time, GiftedAvatar, utils, };
++export { GiftedChat, Actions, Avatar, Bubble, SystemMessage, MessageImage, MessageText, MessageVideo, Composer, Day, InputToolbar, LoadEarlier, Message, MessageContainer, Send, Time, GiftedAvatar, utils, };
+diff --git a/node_modules/react-native-gifted-chat/lib/TypingIndicator.js b/node_modules/react-native-gifted-chat/lib/TypingIndicator.js
+index f2da7fe..3ca8d32 100644
+--- a/node_modules/react-native-gifted-chat/lib/TypingIndicator.js
++++ b/node_modules/react-native-gifted-chat/lib/TypingIndicator.js
+@@ -23,7 +23,7 @@ const TypingIndicator = ({ isTyping }) => {
+         Animated.parallel([
+             Animated.spring(yCoords, {
+                 toValue: 0,
+-                useNativeDriver: false,
++                useNativeDriver: true,
+             }),
+             Animated.timing(heightScale, {
+                 toValue: 35,
+@@ -42,7 +42,7 @@ const TypingIndicator = ({ isTyping }) => {
+         Animated.parallel([
+             Animated.spring(yCoords, {
+                 toValue: 200,
+-                useNativeDriver: false,
++                useNativeDriver: true,
+             }),
+             Animated.timing(heightScale, {
+                 toValue: 0,

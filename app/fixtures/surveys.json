@@ -1,0 +1,143 @@
+[{
+  "id": 2,
+  "name": "Asthma Control Test",
+  "status": "active",
+  "summary": "Why take the Asthma Control Test?\r\n\r\nThe ACT is a more standardised form to measure your symptoms, giving you a simple score out of 25.",
+  "questions": [
+      {
+          "name": "Question 1",
+          "status": "active",
+          "text": "During the past 4 weeks, how often have you had shortness of breath?",
+          "answers": [
+              {
+                  "text": "All of the time",
+                  "points": 1
+              },
+              {
+                  "text": "Most of the time",
+                  "points": 2
+              },
+              {
+                  "text": "Some of the time",
+                  "points": 3
+              },
+              {
+                  "text": "A little of the time",
+                  "points": 4
+              },
+              {
+                  "text": "None of the time",
+                  "points": 5
+              }
+          ]
+      },
+      {
+          "name": "Question 2",
+          "status": "active",
+          "text": "During the past 4 weeks, how often have you had shortness of breath?",
+          "answers": [
+              {
+                  "text": "More than once a day",
+                  "points": 1
+              },
+              {
+                  "text": "Once a day",
+                  "points": 2
+              },
+              {
+                  "text": "3-6 times a week",
+                  "points": 3
+              },
+              {
+                  "text": "1-2 times a week",
+                  "points": 4
+              },
+              {
+                  "text": "Not at all",
+                  "points": 5
+              }
+          ]
+      },
+      {
+          "name": "Question 3",
+          "status": "active",
+          "text": "During the past 4 weeks, how often did your asthma symptoms wake you up at night or earlier than usual in the morning?",
+          "answers": [
+              {
+                  "text": "4 or more times a week",
+                  "points": 1
+              },
+              {
+                  "text": "2-3 nights a week",
+                  "points": 2
+              },
+              {
+                  "text": "Once a week",
+                  "points": 3
+              },
+              {
+                  "text": "Once or twice",
+                  "points": 4
+              },
+              {
+                  "text": "Not at all",
+                  "points": 5
+              }
+          ]
+      },
+      {
+          "name": "Question 4",
+          "status": "active",
+          "text": "During the past 4 weeks, how often have you used your reliever inhaler (usually blue)?",
+          "answers": [
+              {
+                  "text": "3 or more times a day",
+                  "points": 1
+              },
+              {
+                  "text": "1-2 times a day",
+                  "points": 2
+              },
+              {
+                  "text": "2-3 times a week",
+                  "points": 3
+              },
+              {
+                  "text": "Once a week or less",
+                  "points": 4
+              },
+              {
+                  "text": "Not at all",
+                  "points": 5
+              }
+          ]
+      },
+      {
+          "name": "Question 5",
+          "status": "active",
+          "text": "How would you rate your asthma control during the past 4 weeks? ",
+          "answers": [
+              {
+                  "text": "Not controlled",
+                  "points": 1
+              },
+              {
+                  "text": "Poorly controlled",
+                  "points": 2
+              },
+              {
+                  "text": "Somewhat controlled",
+                  "points": 3
+              },
+              {
+                  "text": "Well controlled",
+                  "points": 4
+              },
+              {
+                  "text": "Completely controlled",
+                  "points": 5
+              }
+          ]
+      }
+  ]
+}]
